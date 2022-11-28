@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "proxy-check": "^1.0.8"
+  },
+  "name": "proxy-checker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "check": "node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
