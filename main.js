@@ -28,10 +28,10 @@ const checkProxy = async () => {
     arrProxy.forEach(proxy => {
         proxy_check(proxy).then(r => {
             console.log(`${proxy.host}:${proxy.port}:${proxy.proxyAuth}-live`); // true
-            fs.writeFileSync("proxyLive.txt",`${proxy.host}:${proxy.port}:${proxy.proxyAuth}-live\n`,{ flag: "a" })
+            fs.writeFileSync("proxyLive.txt",`${proxy.host}:${proxy.port}:${proxy.proxyAuth}\n`,{ flag: "a" })
         }).catch(e => {
             console.error(`${proxy.host}:${proxy.port}:${proxy.proxyAuth}-die`); // ECONNRESET
-            fs.writeFileSync("proxyDie.txt",`${proxy.host}:${proxy.port}:${proxy.proxyAuth}-die\n`,{ flag: "a" })
+            fs.writeFileSync("proxyDie.txt",`${proxy.host}:${proxy.port}:${proxy.proxyAuth}\n`,{ flag: "a" })
         })
     })
 }

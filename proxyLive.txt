@@ -1,5 +1,0 @@
-82.117.252.136:10625:cykme020Zfn6:jBxhb3JjCC-live
-82.117.252.136:10624:cykme020Zfn6:jBxhb3JjCC-live
-82.117.252.136:10626:cykme020Zfn6:jBxhb3JjCC-live
-82.117.252.136:10627:cykme020Zfn6:jBxhb3JjCC-live
-82.117.252.136:10623:cykme020Zfn6:jBxhb3JjCC-live
